@@ -1,0 +1,42 @@
+body{
+  padding: 30px;
+  margin: 20px;
+  color: aliceblue;
+  padding-left: 10rem;
+}
+button{
+  background-color: black;
+  border-color: rgb(240, 236, 229);
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 8px;
+  color: aliceblue;
+}
+.project{
+  display: grid;
+  padding: 50px;
+  padding-left: 20px;
+  grid-template-columns: repeat(4,50px);
+  grid-template-rows: minmax(4rem,auto) repeat(5,4rem);
+}
+.long{
+  grid-column: span 2;
+  background-color: rgb(90, 170, 170);
+}
+.output{
+  grid-column: 1/-1;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-around;
+  
+}
+.previous{
+  color:  white;
+}
+.current{
+  color: white;
+}
